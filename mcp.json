@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "filmease": {
+      "type": "streamable-http",
+      "url": "https://filmease-mcp.fancy-fire-1eba.workers.dev/mcp"
+    }
+  }
+}

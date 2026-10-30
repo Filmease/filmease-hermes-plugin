@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "filmease",
+  "version": "0.1.0",
+  "description": "Find movies you can stream and manage your FilmEase watchlist, ratings, reviews, viewing history, and taste.",
+  "author": {
+    "name": "Filmease LLC",
+    "email": "info@filmease.net",
+    "url": "https://www.filmease.net"
+  },
+  "homepage": "https://www.filmease.net",
+  "repository": "https://github.com/Filmease/filmease-hermes-plugin",
+  "license": "MIT",
+  "keywords": [
+    "movies",
+    "streaming",
+    "recommendations",
+    "watchlist"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "filmease": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
